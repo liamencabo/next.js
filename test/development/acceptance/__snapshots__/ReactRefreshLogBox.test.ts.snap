@@ -39,7 +39,7 @@ exports[`ReactRefreshLogBox logbox: anchors links in error messages 5`] = `"Erro
 
 exports[`ReactRefreshLogBox logbox: anchors links in error messages 6`] = `"http://nextjs.org/"`;
 
-exports[`ReactRefreshLogBox logbox: anchors links in error messages 8`] = `"http://nextjs.org/"`;
+exports[`ReactRefreshLogBox logbox: anchors links in error messages 8`] = `"Error: http://nextjs.org/"`;
 
 exports[`ReactRefreshLogBox logbox: anchors links in error messages 9`] = `"http://example.com/"`;
 
@@ -150,7 +150,7 @@ Error:
 
 Caused by:
     0: failed to process input file
-    1: error was recoverable, but proceeding would result in wrong codegen
+    1: error was recoverable, but proceeding will result in wrong codegen
     2: Syntax Error"
 `;
 
@@ -165,7 +165,7 @@ Error:
 
 Caused by:
     0: failed to process input file
-    1: error was recoverable, but proceeding would result in wrong codegen
+    1: error was recoverable, but proceeding will result in wrong codegen
     2: Syntax Error"
 `;
 
